@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 1.2em;}
+p{ font-size: 1.25em;}
+
+button{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: 2px solid rgb(29, 24, 24);
+    box-shadow: 2px 2px 10px rgb(38, 37, 37 );
+    background-color: black;
+    color: white;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+
+}
+button:hover{
+    background-color: #ac7523 ;
+}
+header{
+    background-color: #faf8f8 ;
+    margin: 0px;
+}
+.logo-principal {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-radius: 15px;
+}
+header a:hover{
+    background-color: #ac7523;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+    
+ #primero{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+#primero .container{
+    text-align: center;
+}
+
+.color-logo{ color: #ac7523 ;
+
+}
+
+.boton-central{
+    margin-top: 50px;
+    
+}
+
+#mitad .container{
+    display: flex;
+    justify-content: space-between;
+}
+.central-botones{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center; 
+}
+#mitad .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.h2-2{
+    padding: 50px;
+}
+
+.botones-alineacion{
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    justify-content: space-between;
+}
+
+#primero {
+    background-image: url("media/foto.fondo.jpg");
+    background-repeat: no-repeat;
+    height: 90vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+
+#primero .textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 5px 500px;
+}
+
+#primero p{
+    padding-top: 50px ;
+}
+
+#mitad .container{
+    height: 40vh;
+}
+
+#mitad {
+    background-image: url("media/posiblemente.esta.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-position: right;
+    margin: 200px;
+    background-color: #faf8f8;
+    justify-content: space-between;
+    
+}
+
+#redes .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#redes .redes-fila{
+    display: flex;
+    flex-direction: column;
+}
+    
+#redes a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-radius: 15px;
+}
+
+.attc-img{
+    height: 30vh;
+
+}
+
+#especifi  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70vh;
+    margin-bottom: auto; 
+}
+
+#especifi .attc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#especifi .attc-img{
+    
+}
+
+#especifi .envios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#especifi .envios-img{
+    margin-top: 50px;
+    height: 20vh;
+}
+
+#especifi .producto-cong{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#especifi .producto-img{
+    margin-top: 45px;
+}
+
+.instagram-1{
+height: 10vh;
+}
+
+.facebook-1{
+    height: 10vh;
+}
+
+.twitter-1{
+    height: 10vh;
+}
+
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25vh;
+}
+
+
+
+ *{
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #faf8f8;
+    font-family: sans-serif;
+    font-size: 3rem;
+  }
+  
+  .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: #faf8f8;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .grid-item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 150px;
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+  }
+  
+  .grid-container{
+    margin-top: 200px;
+  }
+  
+  header{
+    display: flex;
+    justify-content: center;
+  }
+  
+    
+
+
+
